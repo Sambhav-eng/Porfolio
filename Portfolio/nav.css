@@ -1,0 +1,48 @@
+    
+    .nav
+    {
+        width: 100vw;
+        height: 10vh ;
+        background-color: rgb(255, 255, 255);
+    /*box-shadow: -15px -1px 18px 6px rgba(69, 39, 79, 0.592);*/
+    position: relative;
+    z-index: 2;
+    border-bottom: 2px solid rgba(187, 47, 187, 0.688) ;
+    position: fixed;
+
+    }
+
+
+    .navlist
+    {
+        display: flex;
+    }
+
+    .b1
+    {
+        padding: 30px;
+        margin-left: 10vw;
+        width: 30vw;
+        height: 20px;
+        font-size: 2.3vh;
+    }
+    .b1:hover
+    {
+        color: rgba(74, 74, 72, 0.627);
+    }   
+    .b
+    {
+        margin-left: 5vw;
+    }
+
+    .b1:hover{
+        cursor: grab;
+    }
+    .b1:active {
+       
+        color: rgb(0, 0, 0); /* Example: White text for contrast */
+        cursor:grabbing;
+    }
+
+
+
